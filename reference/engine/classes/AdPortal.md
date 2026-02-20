@@ -1,13 +1,4 @@
-# Class: AdPortal
+# AdPortal
 
-**Inherits from:** Instance
+URL: https://create.roblox.com/docs/reference/engine/classes/AdPortal
 
-## Description
-No description available.
-
-## Properties
-- **PortalInvalidReason** (string): No description.
-- **PortalVersion** (int64): No description.
-- **Status** (AdUnitStatus): No description.
-
-## Functions
