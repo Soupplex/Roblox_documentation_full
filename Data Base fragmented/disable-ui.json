@@ -1,6 +1,0 @@
-{
-    "title": "Disable default UI",
-    "description": "Explains the process of disabling Roblox's default user interface elements.",
-    "content": "import DefaultUI from '../includes/ui/default-ui.md'",
-    "source": "disable-ui.md"
-}
