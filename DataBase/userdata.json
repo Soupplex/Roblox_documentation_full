@@ -1,0 +1,6 @@
+{
+    "title": "Userdata",
+    "description": "Arbitrary C/C++ data that exists in Luau.",
+    "content": "Userdata is one of the basic types in Luau. Userdata represents arbitrary C/C++ data that exists in Luau. See Userdata for more information.",
+    "source": "userdata.md"
+}

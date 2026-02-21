@@ -1,0 +1,6 @@
+{
+    "title": "Tuples",
+    "description": "Tuples are lists of values.",
+    "content": "A tuple is a list of values. Many methods and callbacks in the Roblox Engine API accept and return multiple values, but the API Reference says \"Tuple\" instead of those values.\n\nParameters\n\nIf a method or callback accepts a tuple as a parameter, then it accepts multiple values. For example, the API Reference shows that the Class.BindableFunction:Invoke() method accepts a \"Tuple\" as a parameter, so it accepts multiple arguments.\n\nlua\nBindableFunction:Invoke(1, true, \"string\", Vector3.new(0, 0, 0))\n\nReturns\n\nIf a method or callback returns a tuple, then it returns multiple values. For example, the API Reference shows that the Class.Players:GetUserThumbnailAsync() method returns a \"Tuple\", so it returns multiple values. The first return value is a Content URL, and the second is a boolean.\n\nlua\nlocal Players = game:GetService(\"Players\")\n\nlocal userId = 156 -- builderman\nlocal thumbType = Enum.ThumbnailType.HeadShot\nlocal thumbSize = Enum.ThumbnailSize.Size420x420\nlocal content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)\nprint(content, isReady) -- rbxthumb://type=AvatarHeadShot&id=156&w=420&h=420 true",
+    "source": "tuples.md"
+}
