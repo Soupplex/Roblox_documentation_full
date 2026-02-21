@@ -1,0 +1,6 @@
+{
+    "title": "disable-ui",
+    "description": "",
+    "content": "{\n    \"title\": \"Disable default UI\",\n    \"description\": \"Explains the process of disabling Roblox's default user interface elements.\",\n    \"content\": \"import DefaultUI from '../includes/ui/default-ui.md'\",\n    \"source\": \"disable-ui.md\"\n}",
+    "source": "disable-ui.json"
+}
